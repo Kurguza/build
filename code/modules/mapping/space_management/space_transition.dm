@@ -96,6 +96,8 @@
 			head.neigbours[inverse] = level
 			level.neigbours[dir] = head
 
+	if (!SSmapping.current_map.z_level_transitions)
+		return
 	//Lists below are pre-calculated values arranged in the list in such a way to be easily accessable in the loop by the counter
 	//Its either this or madness with lotsa math
 	var/inner_max_x = world.maxx - TRANSITIONEDGE

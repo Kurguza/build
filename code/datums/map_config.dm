@@ -77,6 +77,15 @@
 	/// Boolean that tells SSmapping to load all away missions in the codebase.
 	var/load_all_away_missions = FALSE
 
+	/// Boolean - if FALSE, will disable Z-level transitions
+	var/z_level_transitions = TRUE
+
+	/// Boolean - if FALSE, will disable mining site generation
+	var/generate_mining_site = TRUE
+
+	/// Boolean - if FALSE, will disable ruins generation
+	var/generate_ruins = TRUE
+
 /**
  * Proc that simply loads the default map config, which should always be functional.
  */
@@ -234,6 +243,15 @@
 
 	if ("load_all_away_missions" in json)
 		load_all_away_missions = json["load_all_away_missions"]
+
+	if ("z_level_transitions" in json)
+		z_level_transitions = json["z_level_transitions"]
+
+	if ("generate_ruins" in json)
+		generate_ruins = json["generate_ruins"]
+
+	if ("generate_mining_site" in json)
+		generate_mining_site = json["generate_mining_site"]
 
 	if ("give_players_hooks" in json)
 		give_players_hooks = json["give_players_hooks"]

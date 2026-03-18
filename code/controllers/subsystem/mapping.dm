@@ -129,34 +129,36 @@ SUBSYSTEM_DEF(mapping)
 	preloadTemplates()
 
 #ifndef LOWMEMORYMODE
-	// Create space ruin levels
-	while (space_levels_so_far < current_map.space_ruin_levels)
-		add_new_zlevel("Ruin Area [space_levels_so_far+1]", ZTRAITS_SPACE)
-		++space_levels_so_far
+	if (SSmapping.current_map.generate_ruins)
+		log_world("SSmapping.current_map.generate_ruins is [SSmapping.current_map.generate_ruins]")
+		// Create space ruin levels
+		while (space_levels_so_far < current_map.space_ruin_levels)
+			add_new_zlevel("Ruin Area [space_levels_so_far+1]", ZTRAITS_SPACE)
+			++space_levels_so_far
 
-	// Create empty space levels
-	while (space_levels_so_far < current_map.space_empty_levels + current_map.space_ruin_levels)
-		empty_space = add_new_zlevel("Empty Area [space_levels_so_far+1]", list(ZTRAIT_LINKAGE = CROSSLINKED))
-		++space_levels_so_far
+		// Create empty space levels
+		while (space_levels_so_far < current_map.space_empty_levels + current_map.space_ruin_levels)
+			empty_space = add_new_zlevel("Empty Area [space_levels_so_far+1]", list(ZTRAIT_LINKAGE = CROSSLINKED))
+			++space_levels_so_far
 
-	if(current_map.wilderness_levels)
-		var/list/FailedZs = list()
+		if(current_map.wilderness_levels)
+			var/list/FailedZs = list()
 
-		LoadGroup(FailedZs, "Wilderness Area", current_map.wilderness_directory, current_map.maps_to_spawn, default_traits = ZTRAITS_WILDS, height_autosetup = FALSE)
+			LoadGroup(FailedZs, "Wilderness Area", current_map.wilderness_directory, current_map.maps_to_spawn, default_traits = ZTRAITS_WILDS, height_autosetup = FALSE)
 
-		if(LAZYLEN(FailedZs))
-			CRASH("Ice wilds failed to load!")
+			if(LAZYLEN(FailedZs))
+				CRASH("Ice wilds failed to load!")
 
-	// Pick a random away mission.
-	if(CONFIG_GET(flag/roundstart_away))
-		createRandomZlevel(prob(CONFIG_GET(number/config_gateway_chance)))
+		// Pick a random away mission.
+		if(CONFIG_GET(flag/roundstart_away))
+			createRandomZlevel(prob(CONFIG_GET(number/config_gateway_chance)))
 
-	else if (SSmapping.current_map.load_all_away_missions) // we're likely in a local testing environment, so punch it.
-		load_all_away_missions()
+		else if (SSmapping.current_map.load_all_away_missions) // we're likely in a local testing environment, so punch it.
+			load_all_away_missions()
 
-	loading_ruins = TRUE
-	setup_ruins()
-	loading_ruins = FALSE
+		loading_ruins = TRUE
+		setup_ruins()
+		loading_ruins = FALSE
 
 #endif
 	// Run map generation after ruin generation to prevent issues
@@ -462,11 +464,11 @@ Used by the AI doomsday and the self-destruct nuke.
 		qdel(query_round_map_name)
 
 #ifndef LOWMEMORYMODE
-
-	if(current_map.minetype == MINETYPE_LAVALAND)
-		LoadGroup(FailedZs, "Lavaland", "map_files/Mining", "Lavaland.dmm", default_traits = ZTRAITS_LAVALAND)
-	else if (!isnull(current_map.minetype) && current_map.minetype != MINETYPE_NONE && current_map.minetype != MINETYPE_ICE)
-		INIT_ANNOUNCE("WARNING: An unknown minetype '[current_map.minetype]' was set! This is being ignored! Update the maploader code!")
+	if (SSmapping.current_map.generate_mining_site)
+		if(current_map.minetype == MINETYPE_LAVALAND)
+			LoadGroup(FailedZs, "Lavaland", "map_files/Mining", "Lavaland.dmm", default_traits = ZTRAITS_LAVALAND)
+		else if (!isnull(current_map.minetype) && current_map.minetype != MINETYPE_NONE && current_map.minetype != MINETYPE_ICE)
+			INIT_ANNOUNCE("WARNING: An unknown minetype '[current_map.minetype]' was set! This is being ignored! Update the maploader code!")
 #endif
 
 	if(LAZYLEN(FailedZs)) //but seriously, unless the server's filesystem is messed up this will never happen
