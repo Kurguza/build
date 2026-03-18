@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"map_name": "vizivalovo",
-	"map_path": "IVENTKGZ/vizivalovo",
+	"map_path": "map_files/IVENTKGZ",
 	"map_file": "vizivalovo.dmm",
 	"shuttles": {
 		"emergency": "emergency_nova",
@@ -19,7 +19,7 @@
 			"special_charter": "ship"
 		}
 	},
-    "z_level_transitions": false, // Отвечает за переходы между Z-уровнями. false отключает переходы
-    "generate_mining_site": false, // Генерация лаваленда, false отключает генерацию
-    "generate_ruins": false // Генерация руин, false тоже отключает соответственно
+    "z_level_transitions": false,
+    "generate_mining_site": false,
+    "generate_ruins": false
 }

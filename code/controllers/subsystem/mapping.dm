@@ -130,7 +130,6 @@ SUBSYSTEM_DEF(mapping)
 
 #ifndef LOWMEMORYMODE
 	if (SSmapping.current_map.generate_ruins)
-		log_world("SSmapping.current_map.generate_ruins is [SSmapping.current_map.generate_ruins]")
 		// Create space ruin levels
 		while (space_levels_so_far < current_map.space_ruin_levels)
 			add_new_zlevel("Ruin Area [space_levels_so_far+1]", ZTRAITS_SPACE)
