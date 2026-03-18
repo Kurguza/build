@@ -101,3 +101,7 @@ map nssjourney
 	maxplayers 100
 	votable
 endmap
+
+##Ivents##
+map vizivalovo
+endmap

@@ -34,6 +34,7 @@
 		#include "map_files\NSSJourney\NSSJourney.dmm"
 		#include "map_files\KiloStation2\KiloStation2.dmm"
 		// FLUFFY FRONTIER ADDITION END
+		#include "IVENTKGZ/vizivalovo.dmm"
 	#endif
 	#ifdef ALL_TEMPLATES
 		#include "templates.dm"
