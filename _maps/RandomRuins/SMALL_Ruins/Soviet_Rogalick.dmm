@@ -1,0 +1,789 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ad" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/prop/general/barrel_wy,
+/obj/item/clothing/gloves/boxing{
+	pixel_x = 4;
+	pixel_y = 7
+	},
+/obj/item/clothing/gloves/boxing,
+/turf/open/floor/engine,
+/area/space)
+"ax" = (
+/obj/structure/prop/city/buildingventbig11_off{
+	name = "Generator";
+	dir = 1;
+	pixel_x = -16
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"aG" = (
+/turf/closed/wall/r_wall,
+/area/space)
+"bP" = (
+/obj/structure/window/reinforced/fulltile,
+/obj/structure/girder,
+/turf/open/floor/engine,
+/area/space)
+"cC" = (
+/obj/structure/table/optable,
+/obj/item/tank/internals/anesthetic,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"dh" = (
+/obj/structure/rack/shelf,
+/obj/structure/decorative{
+	icon = 'icons/obj/pipes_n_cables/layer_cable.dmi';
+	icon_state = "l4-2-8";
+	anchored = 1;
+	name = "cable";
+	color = "#222222"
+	},
+/obj/item/reagent_containers/cup/glass/bottle/vodka,
+/obj/item/reagent_containers/cup/glass/bottle/vodka{
+	pixel_x = -5
+	},
+/obj/item/reagent_containers/cup/glass/bottle/vodka{
+	pixel_x = -10
+	},
+/obj/item/reagent_containers/cup/glass/bottle/vodka{
+	pixel_y = 3;
+	pixel_x = 7
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"dz" = (
+/obj/structure/reagent_dispensers/plumbed/fuel,
+/obj/effect/turf_decal/bot_red,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"dA" = (
+/obj/machinery/computer/security,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"dE" = (
+/obj/item/reagent_containers/spray/cleaner{
+	pixel_x = -3;
+	pixel_y = 2
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"ee" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/extinguisher_cabinet/directional/west,
+/obj/structure/kitchenspike,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"eg" = (
+/obj/structure/rack/shelf,
+/obj/item/reagent_containers/cup/glass/bottle/vodka,
+/obj/item/shovel,
+/obj/item/reagent_containers/cup/glass/bottle/beer,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"ex" = (
+/obj/item/assembly/mousetrap,
+/obj/item/food/deadmouse,
+/turf/open/floor/engine,
+/area/space)
+"eG" = (
+/obj/machinery/door/airlock/highsecurity,
+/turf/open/floor/plating,
+/area/space)
+"fz" = (
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/engine,
+/area/space)
+"ge" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/effect/turf_decal/bot_red,
+/obj/item/melee/baseball_bat{
+	pixel_x = -5
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"hz" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/engineering/tool,
+/obj/item/storage/fancy/pickles_jar{
+	pixel_x = 8;
+	pixel_y = 19
+	},
+/obj/item/fish/donkfish,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"hQ" = (
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"ih" = (
+/obj/machinery/computer/operating{
+	dir = 2
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"jw" = (
+/obj/structure/deployable_barricade/metal,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/engine,
+/area/space)
+"jC" = (
+/turf/closed/wall/r_wall/rust,
+/area/space)
+"kJ" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"lg" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/engine,
+/area/space)
+"ls" = (
+/obj/structure/table/reinforced,
+/obj/effect/spawner/random/engineering,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"lQ" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/effect/turf_decal/bot_red,
+/obj/structure/sign/poster/contraband/communist_state/directional/east,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"ph" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/prop/general/smallwallvent1{
+	pixel_y = 26
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"pi" = (
+/obj/structure/table/reinforced,
+/obj/effect/spawner/random/engineering/tool,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"qK" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/entertainment/money_small,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"se" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/vomit/old,
+/obj/item/food/deadmouse,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"ti" = (
+/mob/living/basic/bear/fightpit,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"tt" = (
+/obj/structure/decorative{
+	icon = 'icons/obj/pipes_n_cables/layer_cable.dmi';
+	icon_state = "l4-4-8";
+	anchored = 1;
+	name = "cable";
+	color = "#222222"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"vY" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/effect/turf_decal/bot_red,
+/obj/structure/sign/poster/contraband/communist_state/directional/west,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"ww" = (
+/obj/structure/deployable_barricade/metal,
+/turf/open/floor/engine,
+/area/space)
+"ye" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"yX" = (
+/obj/machinery/computer/crew{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Ar" = (
+/obj/machinery/power/shuttle_engine/heater,
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/window/reinforced/spawner/directional/west,
+/turf/open/floor/plating,
+/area/space)
+"AF" = (
+/obj/machinery/power/shuttle_engine/heater,
+/obj/structure/window/reinforced/spawner/directional/north,
+/turf/open/floor/plating,
+/area/space)
+"AW" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/effect/turf_decal/bot_red,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"Bd" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/decorative{
+	icon = 'icons/obj/pipes_n_cables/layer_cable.dmi';
+	icon_state = "l4-4-8";
+	anchored = 1;
+	name = "cable";
+	color = "#222222"
+	},
+/obj/structure/sign/warning/electric_shock/directional/east,
+/obj/effect/spawner/random/structure/tank_holder,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Bn" = (
+/obj/machinery/door/poddoor{
+	id = "bearsbearsbears"
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"Ci" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/barricade/security,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Cp" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/vomit/old,
+/turf/open/floor/engine,
+/area/space)
+"DT" = (
+/obj/machinery/stasis,
+/obj/item/stack/medical/gauze,
+/obj/structure/sign/spooky/spider_stickers,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"FD" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"Ge" = (
+/obj/machinery/stasis,
+/obj/effect/spawner/random/medical/medkit,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Gu" = (
+/obj/structure/rack/shelf,
+/obj/item/storage/medkit,
+/obj/item/storage/medkit/brute{
+	pixel_x = -1;
+	pixel_y = 3
+	},
+/obj/item/storage/medkit/toxin{
+	pixel_x = -1;
+	pixel_y = 7
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"HD" = (
+/obj/structure/rack/shelf,
+/obj/structure/decorative{
+	icon = 'icons/obj/pipes_n_cables/layer_cable.dmi';
+	icon_state = "l4-2-4";
+	anchored = 1;
+	name = "cable";
+	color = "#222222"
+	},
+/obj/item/knife/kitchen,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"HO" = (
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"IF" = (
+/obj/structure/closet/crate/freezer/donk,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"IJ" = (
+/obj/machinery/power/shuttle_engine/heater,
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/structure/window/reinforced/spawner/directional/north,
+/turf/open/floor/plating,
+/area/space)
+"IO" = (
+/obj/structure/prop/general/smallwallvent1{
+	pixel_y = 26
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"Jw" = (
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/cup/bucket/wooden{
+	pixel_y = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"KR" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/engine,
+/area/space)
+"Lj" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Lo" = (
+/obj/machinery/recharge_station/train,
+/obj/effect/turf_decal/bot_red,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"Lv" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/basic/chick,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"MI" = (
+/obj/effect/decal/hammerandsickle{
+	pixel_y = -8;
+	pixel_x = -18
+	},
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/engine,
+/area/space)
+"Ou" = (
+/obj/structure/table/reinforced/rglass,
+/obj/effect/spawner/surgery_tray/full/deployed,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"OJ" = (
+/obj/machinery/computer/emergency_shuttle,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Rz" = (
+/turf/template_noop,
+/area/space)
+"Sz" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/extinguisher_cabinet/directional/east,
+/obj/structure/decorative{
+	icon = 'icons/obj/pipes_n_cables/layer_cable.dmi';
+	icon_state = "l4-4-8";
+	anchored = 1;
+	name = "cable";
+	color = "#222222"
+	},
+/obj/effect/spawner/random/trash/graffiti,
+/obj/structure/kitchenspike,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Tg" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/broken_bottle,
+/turf/open/floor/engine,
+/area/space)
+"To" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/vomit/old,
+/obj/item/food/deadmouse,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Tp" = (
+/obj/effect/decal/cleanable/glass,
+/mob/living/basic/bear/fightpit,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"VF" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/effect/turf_decal/bot_red,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"VY" = (
+/obj/machinery/power/shuttle_engine/propulsion,
+/turf/open/floor/plating/airless,
+/area/space)
+"WG" = (
+/obj/effect/spawner/random/engineering,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"Xi" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/spooky/spider_stickers,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Yo" = (
+/turf/open/floor/engine,
+/area/space)
+"Zg" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/decorative{
+	icon = 'icons/obj/pipes_n_cables/layer_cable.dmi';
+	icon_state = "l4-4-8";
+	anchored = 1;
+	name = "cable";
+	color = "#222222"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"Zl" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+
+(1,1,1) = {"
+Rz
+Rz
+Rz
+Rz
+Rz
+jC
+jC
+IJ
+VY
+Rz
+Rz
+Rz
+Rz
+Rz
+Rz
+"}
+(2,1,1) = {"
+Rz
+Rz
+Rz
+Rz
+aG
+Ou
+ye
+Gu
+IJ
+VY
+Rz
+Rz
+Rz
+Rz
+Rz
+"}
+(3,1,1) = {"
+Rz
+Rz
+Rz
+aG
+ih
+cC
+dE
+hQ
+HO
+AF
+VY
+Rz
+Rz
+Rz
+Rz
+"}
+(4,1,1) = {"
+Rz
+Rz
+aG
+aG
+aG
+aG
+Ge
+DT
+ti
+AF
+VY
+Rz
+Rz
+Rz
+Rz
+"}
+(5,1,1) = {"
+Rz
+Rz
+Rz
+Rz
+Rz
+Rz
+aG
+aG
+eG
+aG
+jC
+jC
+Rz
+Rz
+Rz
+"}
+(6,1,1) = {"
+Rz
+Rz
+Rz
+Rz
+Rz
+Rz
+Rz
+eG
+Ci
+ee
+hQ
+dh
+jC
+Rz
+Rz
+"}
+(7,1,1) = {"
+Rz
+Rz
+Rz
+Rz
+Rz
+Rz
+jC
+aG
+IO
+kJ
+FD
+eg
+jC
+aG
+Rz
+"}
+(8,1,1) = {"
+Rz
+Rz
+Rz
+Rz
+Rz
+Rz
+bP
+dz
+kJ
+ge
+VF
+VF
+vY
+Bn
+Rz
+"}
+(9,1,1) = {"
+Rz
+Rz
+Rz
+Rz
+Rz
+bP
+bP
+yX
+Lv
+lg
+Tg
+lg
+jw
+Bn
+Rz
+"}
+(10,1,1) = {"
+Rz
+Rz
+Rz
+Rz
+Rz
+bP
+dA
+se
+hQ
+Yo
+Yo
+MI
+ww
+Bn
+Rz
+"}
+(11,1,1) = {"
+Rz
+Rz
+Rz
+Rz
+Rz
+bP
+OJ
+Lj
+hQ
+KR
+lg
+lg
+fz
+Bn
+Rz
+"}
+(12,1,1) = {"
+Rz
+Rz
+Rz
+Rz
+Rz
+bP
+bP
+Jw
+hQ
+ad
+ex
+Cp
+Yo
+Bn
+Rz
+"}
+(13,1,1) = {"
+Rz
+Rz
+Rz
+Rz
+Rz
+Rz
+bP
+Lo
+kJ
+AW
+AW
+AW
+lQ
+Bn
+Rz
+"}
+(14,1,1) = {"
+Rz
+Rz
+Rz
+Rz
+Rz
+Rz
+jC
+aG
+ph
+tt
+Zg
+qK
+aG
+jC
+Rz
+"}
+(15,1,1) = {"
+Rz
+Rz
+Rz
+Rz
+Rz
+Rz
+Rz
+eG
+Ci
+Sz
+Bd
+HD
+aG
+Rz
+Rz
+"}
+(16,1,1) = {"
+Rz
+Rz
+Rz
+Rz
+Rz
+Rz
+aG
+aG
+eG
+aG
+aG
+aG
+Rz
+Rz
+Rz
+"}
+(17,1,1) = {"
+Rz
+Rz
+jC
+aG
+aG
+aG
+pi
+ls
+Tp
+AF
+VY
+Rz
+Rz
+Rz
+Rz
+"}
+(18,1,1) = {"
+Rz
+Rz
+Rz
+jC
+IF
+Zl
+To
+Xi
+WG
+AF
+VY
+Rz
+Rz
+Rz
+Rz
+"}
+(19,1,1) = {"
+Rz
+Rz
+Rz
+Rz
+jC
+Zl
+ax
+hz
+Ar
+VY
+Rz
+Rz
+Rz
+Rz
+Rz
+"}
+(20,1,1) = {"
+Rz
+Rz
+Rz
+Rz
+Rz
+jC
+jC
+Ar
+VY
+Rz
+Rz
+Rz
+Rz
+Rz
+Rz
+"}
