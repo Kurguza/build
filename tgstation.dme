@@ -9518,6 +9518,8 @@
 #include "modular_nova\modules\xenoarchartifacts\obj\geosample.dm"
 #include "modular_nova\modules\xenoarchartifacts\obj\particle_battery.dm"
 #include "modular_nova\modules\xenoarchartifacts\obj\wave_scanner.dm"
+#include "svaz\help_zapros.dm"
+#include "svaz\new_obj.dm"
 #include "tff_modular\master_files\code\_HELPERS\global_lists.dm"
 #include "tff_modular\master_files\code\datum\id_trim\jobs.dm"
 #include "tff_modular\master_files\code\datum\quirks\neutral_quirks\burr.dm"
