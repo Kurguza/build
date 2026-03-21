@@ -6,7 +6,7 @@
 
 Kurguaza = Host
 KurguzaSERVER = Host
-Gamer413 = Game Master
-danilcus = Game Master
-darkmac = Game Master
+#Gamer413 = Game Master
+#danilcus = Game Master
+#darkmac = Game Master
 FRT265 = Game Master
